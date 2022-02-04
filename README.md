@@ -89,7 +89,7 @@ namespace net5_soap.Services
 }
 ```
 
-### Interate SOAP in Startup class
+### Integrate SOAP in Startup class
 
 Modify `Startup` class, add below statements in `ConfigureServices()` method:
 
