@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>net5_soap</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="Services\" />
+    <None Remove="SoapCore" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="SoapCore" Version="1.1.0.24" />
+  </ItemGroup>
+</Project>
